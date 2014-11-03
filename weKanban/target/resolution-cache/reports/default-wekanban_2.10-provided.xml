@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="wekanban_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
+		date="20141103235639"/>
+	<dependencies>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="3.0.1" status="release" pubdate="20110713034053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://servlet-spec.java.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="3676" time="0" location="/Users/weiwang/.ivy2/cache/javax.servlet/javax.servlet-api/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom"/>
+				<caller organisation="default" name="wekanban_2.10" conf="provided" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="jar" ext="jar" status="no" details="" size="85353" time="0" location="/Users/weiwang/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

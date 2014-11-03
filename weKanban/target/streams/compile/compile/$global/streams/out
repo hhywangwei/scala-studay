@@ -1,0 +1,39 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/weiwang/work/git/weKanban/src/main/scala/com/appeme/application/WeKanbanApplication.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/weiwang/work/git/weKanban/src/main/scala/com/appeme/application/WeKanbanApplication.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/weiwang/work/git/weKanban/src/main/scala/com/appeme/application/WeKanbanApplication.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/weiwang/work/git/weKanban/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4e137, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/classes:/Users/weiwang/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/weiwang/work/git/weKanban/target/scala-2.10/classes:/Users/weiwang/.ivy2/cache/org.scalaz/scalaz-core_2.10/jars/scalaz-core_2.10-6.0.4.jar:/Users/weiwang/.ivy2/cache/org.scalaz/scalaz-http_2.10/jars/scalaz-http_2.10-6.0.4.jar:/Users/weiwang/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar:/Users/weiwang/.ivy2/cache/com.h2database/h2/jars/h2-1.2.137.jar:/Users/weiwang/.ivy2/cache/org.squeryl/squeryl_2.10/jars/squeryl_2.10-0.9.5-6.jar:/Users/weiwang/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar:/Users/weiwang/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.0.jar:/Users/weiwang/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.0.jar:/Users/weiwang/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar:/Users/weiwang/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.0.1.jar[0m
+[0m[[31merror[0m] [0m/Users/weiwang/work/git/weKanban/src/main/scala/com/appeme/application/WeKanbanApplication.scala:11: overloaded method value << with alternatives:[0m
+[0m[[31merror[0m] [0m  (x: Long)Int <and>[0m
+[0m[[31merror[0m] [0m  (x: Int)Int[0m
+[0m[[31merror[0m] [0m cannot be applied to (scala.collection.immutable.Stream[Byte])[0m
+[0m[[31merror[0m] [0m      def found(x : Iterator[Byte] ): Response[Stream] = OK << x.toStream[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/Users/weiwang/work/git/weKanban/src/main/scala/com/appeme/application/WeKanbanApplication.scala:12: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : Some[String][0m
+[0m[[31merror[0m] [0m required: scalaz.http.response.Response[Stream][0m
+[0m[[31merror[0m] [0m      HttpServlet.resource(found, NotFound.reasonPhraseS)[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
