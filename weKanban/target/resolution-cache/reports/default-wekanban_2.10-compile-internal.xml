@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
-		date="20141103235639"/>
+		date="20141104213958"/>
 	<dependencies>
 		<module organisation="javax.servlet" name="javax.servlet-api">
 			<revision name="3.0.1" status="release" pubdate="20110713034053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://servlet-spec.java.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
@@ -82,13 +82,13 @@
 			</revision>
 		</module>
 		<module organisation="com.h2database" name="h2">
-			<revision name="1.2.137" status="release" pubdate="20100606184311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
-				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
-				<metadata-artifact status="no" details="" size="2337" time="0" location="/Users/weiwang/.ivy2/cache/com.h2database/h2/ivy-1.2.137.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.2.137/h2-1.2.137.pom"/>
-				<caller organisation="default" name="wekanban_2.10" conf="optional, compile, provided, compile-internal" rev="1.2.137" rev-constraint-default="1.2.137" rev-constraint-dynamic="1.2.137" callerrev="0.1-SNAPSHOT"/>
+			<revision name="1.4.182" status="release" pubdate="20141017200222" resolver="public" artresolver="public" homepage="http://www.h2database.com" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="MPL 2.0, and EPL 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="successful" details="" size="966" time="1532" location="/Users/weiwang/.ivy2/cache/com.h2database/h2/ivy-1.4.182.xml" searched="true" original-local-location="/Users/weiwang/.ivy2/cache/com.h2database/h2/ivy-1.4.182.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.182/h2-1.4.182.pom"/>
+				<caller organisation="default" name="wekanban_2.10" conf="optional, compile, provided, compile-internal" rev="1.4.182" rev-constraint-default="1.4.182" rev-constraint-dynamic="1.4.182" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1200940" time="0" location="/Users/weiwang/.ivy2/cache/com.h2database/h2/jars/h2-1.2.137.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.2.137/h2-1.2.137.jar"/>
+					<artifact name="h2" type="jar" ext="jar" status="successful" details="" size="1685416" time="84751" location="/Users/weiwang/.ivy2/cache/com.h2database/h2/jars/h2-1.4.182.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.182/h2-1.4.182.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

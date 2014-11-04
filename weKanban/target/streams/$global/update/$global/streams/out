@@ -1,26 +1,26 @@
 [0m[[0minfo[0m] [0mUpdating {file:/Users/weiwang/work/git/weKanban/}wekanban...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#wekanban_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: wekanban#wekanban_2.10;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f0a64c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73e6507f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;6.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;6.0.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;6.0.4[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;6.0.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -28,14 +28,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-http_2.10;6.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-http_2.10;6.0.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-http_2.10;6.0.4[0m
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-http_2.10;6.0.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime(*)][0m
@@ -59,22 +59,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.2.137 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.h2database#h2;1.2.137 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.h2database#h2;1.2.137[0m
-[0m[[0mdebug[0m] [0m	found com.h2database#h2;1.2.137 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.182 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.h2database#h2;1.4.182 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.h2database#h2;1.4.182[0m
+[0m[[0mdebug[0m] [0m	found com.h2database#h2;1.4.182 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.squeryl#squeryl_2.10;0.9.5-6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.squeryl#squeryl_2.10;0.9.5-6 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.squeryl#squeryl_2.10;0.9.5-6[0m
 [0m[[0mdebug[0m] [0m	found org.squeryl#squeryl_2.10;0.9.5-6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -132,17 +132,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->cglib#cglib-nodep;2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -150,10 +150,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -169,14 +169,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -214,18 +214,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -233,10 +233,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -252,14 +252,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -297,29 +297,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving javax.servlet#javax.servlet-api;3.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.0.1 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.0.1[0m
-[0m[[0mdebug[0m] [0m	found javax.servlet#javax.servlet-api;3.0.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -327,10 +319,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -346,14 +338,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -391,24 +383,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -416,10 +404,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -435,14 +423,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -480,20 +468,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -501,10 +489,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
@@ -520,14 +508,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-http_2.10;6.0.4->javax.servlet#servlet-api;2.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.2.137 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scalaz#scalaz-http_2.10;6.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->com.h2database#h2;1.4.182 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.squeryl#squeryl_2.10;0.9.5-6->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
@@ -565,30 +553,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -613,8 +597,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
@@ -627,53 +611,52 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'container'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#wekanban_2.10;0.1-SNAPSHOT [container][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wekanban#wekanban_2.10;0.1-SNAPSHOT [container][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-runner;9.2.1.v20140609 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-runner;9.2.1.v20140609 {container=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-runner;9.2.1.v20140609[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-runner;9.2.1.v20140609 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wekanban#wekanban_2.10;0.1-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->master][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;6.0.4!scalaz-core_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-http_2.10;6.0.4!scalaz-http_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.2.137!h2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.4.182!h2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.squeryl#squeryl_2.10;0.9.5-6!squeryl_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#servlet-api;2.5!servlet-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] cglib#cglib-nodep;2.2!cglib-nodep.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.2.1.v20140609!jetty-runner.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 807ms :: artifacts dl 29ms[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT compile produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT runtime produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT test produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT provided produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT optional produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT compile-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT test-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT plugin produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT sources produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT docs produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT pom produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT scala-tool produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#wekanban_2.10;0.1-SNAPSHOT container produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/default-wekanban_2.10-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (807ms resolve - 29ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 381ms :: artifacts dl 13ms[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT compile produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT runtime produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT test produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT provided produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT optional produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT compile-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT test-internal produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT plugin produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT sources produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT docs produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT pom produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT scala-tool produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for wekanban#wekanban_2.10;0.1-SNAPSHOT container produced in /Users/weiwang/work/git/weKanban/target/resolution-cache/reports/wekanban-wekanban_2.10-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (381ms resolve - 13ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
