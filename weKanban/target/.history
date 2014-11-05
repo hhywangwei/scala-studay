@@ -49,3 +49,13 @@ reload
 h2:startH2
 reload
 exit
+update
+container.start
+container:start
+complier:complie
+compile:compile
+contaier:start
+container:start
+clean
+eixt
+exit
