@@ -49,3 +49,7 @@ reload
 h2:startH2
 reload
 exit
+clone
+clear
+clean
+cd ..

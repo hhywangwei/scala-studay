@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wekanban.iml" filepath="$PROJECT_DIR$/.idea/modules/wekanban.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wekanban-build.iml" filepath="$PROJECT_DIR$/.idea/modules/wekanban-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weKanban.iml" filepath="$PROJECT_DIR$/weKanban.iml" />
     </modules>
   </component>
 </project>
