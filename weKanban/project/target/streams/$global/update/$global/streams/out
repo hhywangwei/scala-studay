@@ -1770,7 +1770,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.6!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2548ms :: artifacts dl 49ms
+[debug] :: resolution report :: resolve 3192ms :: artifacts dl 91ms
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT compile produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-compile.xml
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT runtime produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-runtime.xml
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT test produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-test.xml
@@ -1784,5 +1784,5 @@
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT docs produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-docs.xml
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT pom produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-pom.xml
 [debug] 	report for default#wekanban-build;0.1-SNAPSHOT scala-tool produced in /Users/weiwang/work/git/weKanban/project/target/resolution-cache/reports/default-wekanban-build-scala-tool.xml
-[debug] 	resolve done (2548ms resolve - 49ms download)
+[debug] 	resolve done (3192ms resolve - 91ms download)
 [info] Done updating.
