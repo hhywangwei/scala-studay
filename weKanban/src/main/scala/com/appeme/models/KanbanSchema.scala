@@ -23,7 +23,7 @@ object KanbanSchema extends Schema{
     }
   }
 
-  def tx[A](a:A) :A = {
+  def tx[A](a: => A) :A = {
     init
     inTransaction(a)
   }
