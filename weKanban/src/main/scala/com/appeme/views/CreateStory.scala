@@ -32,8 +32,7 @@ object CreateStory {
                 (describe the story)
               </span>
             </label>
-            <textarea rows="5" cols="30" name="title"
-                      id="title"></textarea>
+            <textarea rows="5" cols="30" name="title" id="title"></textarea>
           </div>
           <div class="section">
             <button type="submit">Save</button>
@@ -46,5 +45,4 @@ object CreateStory {
         </div>
       </body>
     </html>
-
 }
