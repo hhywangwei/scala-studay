@@ -23,11 +23,8 @@ object KanbanSchema extends Schema{
     }
   }
 
-<<<<<<< HEAD
+
   def tx[A](a: =>A): A = {
-=======
-  def tx[A](a: => A) :A = {
->>>>>>> 4ada834c582a3ce9723bcd862cf556cd176c2f34
     init
     inTransaction(a)
   }
