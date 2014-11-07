@@ -7,12 +7,22 @@ import KanbanSchema._
  */
 class Story(val number:String, val title:String, val phase:String) {
 
+  private def phaseLimits = Map("ready" -> Some(3),
+      "dev" -> Some(2), "test" -> Some(2), "deploy" -> None)
+
   private [this] def validate = {
     if(number.isEmpty || title.isEmpty){
       throw new ValidateException("Both number and title are required")
     }
     if(!stories.where(a => a.number === number).isEmpty){
       throw new ValidateException("The story number is not unique")
+    }
+  }
+
+  private[this] def validateLimit = {
+    val currentSize:Long = from(stories)(s => where(s.phase === phase) compute(count))
+    if(currentSize == phaseLimits(phase).getOrElse(-1)){
+      throw new ValidateException("You cannot exceed the limit set for the phase!")
     }
   }
 
@@ -27,11 +37,31 @@ class Story(val number:String, val title:String, val phase:String) {
       }
     }
   }
+
+  def moveTo(phase:String) :Either[Throwable,String] = {
+    tx{
+      validateLimit
+      update(stories)(s => where(s.number === this.number) set(s.phase:=phase))
+      Right("Card " + this.number + " is moved to " + phase + "phase successfully" )
+    }
+  }cacth{
+    case exception: Throwable =>
+      exception.printStackTrace(); Left(exception)
+  }
 }
+
 
 object Story{
   def apply(number:String, title:String) ={
     new Story(number, title, "ready")
+  }
+
+  def findAllByPhase(phase:String) = tx {
+    from(stories) (s => where(s.phase === phase) select(s)) map (s => s)
+  }
+
+  def findByNumber(number:String) = tx{
+    stories.where(s.number === number).single
   }
 }
 

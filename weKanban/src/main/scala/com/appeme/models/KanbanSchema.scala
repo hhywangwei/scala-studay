@@ -23,14 +23,14 @@ object KanbanSchema extends Schema{
     }
   }
 
-  def tx[A](a:A) :A = {
+  def tx[A](a: =>A): A = {
     init
     inTransaction(a)
   }
 
-  def main(args: Array[String]): Unit ={
-    println("initializing the wekanban schema")
+  def main(args: Array[String]) {
+    println("initializing the weKanban schema")
     init
-    inTransaction { drop; create }
+    inTransaction { drop ; create }
   }
 }

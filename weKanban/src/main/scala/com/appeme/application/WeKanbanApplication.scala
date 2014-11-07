@@ -1,7 +1,7 @@
 package com.appeme.application
 
-import com.appeme.models.Story
-import com.appeme.views.CreateStory
+import com.appeme.models._
+import com.appeme.views._
 
 import scalaz._
 import Scalaz._
@@ -28,6 +28,8 @@ final class WeKanbanApplication extends StreamStreamServletApplication {
         Some(OK(ContentType, "text/html") << strict << CreateStory(param("message")))
       case MethodParts(POST, "card" :: "save" ::Nil) =>
         Some(saveStory)
+      case MethodParts(GET, "card" :: "board" :: Nil) =>
+        Some(OK(ContentType,"text/html") << transitional << KanbanBoard())
       case _ => None
     }
   }
@@ -38,7 +40,7 @@ final class WeKanbanApplication extends StreamStreamServletApplication {
 
     Story(number, title).save match {
       case Right(message) =>
-        redirects[Stream,Stream] ("card/create",("message", message))
+        redirects[Stream,Stream] ("/card/create",("message", message))
       case Left(error) =>
         OK(ContentType,"text/html") << strict << CreateStory(error.toString)
     }
