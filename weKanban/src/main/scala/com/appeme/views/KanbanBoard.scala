@@ -17,8 +17,7 @@ object KanbanBoard {
           {stories("ready")}
         </div>
         <div class="phase" id="devPhase">
-          <h3 class="message" title="Stories in progress. Limit is set to 2">Dev
-            [2]</h3>
+          <h3 class="message" title="Stories in progress. Limit is set to 2">Dev [2]</h3>
           {stories("dev")}
         </div>
         <div class="phase" id="testPhase">
@@ -37,6 +36,7 @@ object KanbanBoard {
       <meta charset="UTF-8" />
       <title>weKanban: A simple Kanban board</title>
       <script type="text/javascript" src="/js/jquery-1.4.2.js"></script>
+      <script type="text/javascript" src="/js/jquery.ui.core.js"></script>
       <script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
       <script type="text/javascript" src="/js/jquery.ui.mouse.js"></script>
       <script type="text/javascript" src="/js/jquery.ui.draggable.js"></script>

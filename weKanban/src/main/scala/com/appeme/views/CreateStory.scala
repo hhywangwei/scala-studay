@@ -40,7 +40,7 @@ object CreateStory {
         </fieldset>
         </form>
           <span class="linkLabel">
-            <a href="/kanban/board">Go to Kanban board</a>
+            <a href="/card/board">Go to Kanban board</a>
           </span>
         </div>
       </body>
